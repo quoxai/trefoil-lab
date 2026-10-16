@@ -1,0 +1,24 @@
+test_rejected_candidate_cannot_commit (test_trefoil.MinimalTrefoilTests.test_rejected_candidate_cannot_commit) ... FAIL
+test_verified_progress (test_trefoil.MinimalTrefoilTests.test_verified_progress) ... FAIL
+test_verifier_contract (test_trefoil.MinimalTrefoilTests.test_verifier_contract) ... ok
+
+======================================================================
+FAIL: test_rejected_candidate_cannot_commit (test_trefoil.MinimalTrefoilTests.test_rejected_candidate_cannot_commit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/labbridge-work/T000-e48c20e86db7-1/src/tests/test_trefoil.py", line 19, in test_rejected_candidate_cannot_commit
+    self.assertEqual(result.value, 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_verified_progress (test_trefoil.MinimalTrefoilTests.test_verified_progress)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/labbridge-work/T000-e48c20e86db7-1/src/tests/test_trefoil.py", line 10, in test_verified_progress
+    self.assertTrue(result.verified)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s
+
+FAILED (failures=2)
