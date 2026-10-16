@@ -37,7 +37,7 @@ def trefoil(initial: Any,
         verdict = prove(candidate)
         if not isinstance(verdict, Verdict):
             raise TypeError("prove must return Verdict")
-        if verdict.passed:
+        if not verdict.passed:
             committed = candidate
         history.append({"cycle": cycle, "accepted": verdict.passed, "evidence": verdict.evidence})
         # Evolve controls future strategy, NEVER the verifier.
