@@ -1,0 +1,26 @@
+{
+  "approval": {
+    "tag": "approved/T999-probe",
+    "tag_object": "f1824205a201f50dfd7b051274262d5a2d45a7ea",
+    "why": "tag name does not match approved/T###-<sha12>"
+  },
+  "artifacts": [],
+  "attempt": 1,
+  "detail": "approval_invalid",
+  "environment": {},
+  "exit_code": null,
+  "experiment": "T???",
+  "failures": [
+    "tag name does not match approved/T###-<sha12>"
+  ],
+  "finished_at": "2026-10-16T21:43:33+00:00",
+  "measurements": {},
+  "run_id": "T???-approved/T99-1",
+  "schema": "trefoil-lab-report/v0.1",
+  "source_commit": "approved/T999-probe",
+  "started_at": "2026-10-16T21:43:33+00:00",
+  "status": "error",
+  "supervisor": "labbridge-0.1.0",
+  "tests_commit": null,
+  "tests_exit_code": null
+}

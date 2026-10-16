@@ -1,0 +1,9 @@
+{
+  "artifacts": {
+    "report.json": "16e76e4abc4a818946f070858524c48cc6d8a962144a8e55ea6eb0015df7e4da"
+  },
+  "run_id": "T???-approved/T99-1",
+  "schema": "trefoil-lab-report/v0.1",
+  "supervisor": "labbridge-0.1.0",
+  "written_at": "2026-10-16T21:43:33+00:00"
+}
