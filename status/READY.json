@@ -1,0 +1,71 @@
+{
+  "approval_signer_fingerprint": "SHA256:QuvciPjdec8f6Hun53ThY9pWpnEUlnZTWzyJ1nHAlfc",
+  "at": "2026-10-16T21:43:25+00:00",
+  "executes": "only commits on research/* with an owner-signed approved/T###-<sha12> tag",
+  "limits": {
+    "cpu": "1 core",
+    "disk": "2G",
+    "memory": "1G",
+    "network": "none",
+    "tasks": 64,
+    "time_s": 600
+  },
+  "protocol": "trefoil-lab-report/v0.1",
+  "results_branch": "lab-results",
+  "retries": "only interrupted, infrastructure_error, sandbox_unavailable; max 3 attempts",
+  "sandbox_selfcheck": {
+    "at": "2026-10-16T21:43:25+00:00",
+    "checks": {
+      "no_dns": {
+        "ok": true,
+        "why": "gaierror"
+      },
+      "no_network_github": {
+        "ok": true,
+        "why": "OSError"
+      },
+      "no_network_internet": {
+        "ok": true,
+        "why": "OSError"
+      },
+      "no_network_lan_gateway": {
+        "ok": true,
+        "why": "OSError"
+      },
+      "no_read_app_key": {
+        "ok": true,
+        "why": "PermissionError"
+      },
+      "no_read_supervisor_code": {
+        "ok": true,
+        "why": "PermissionError"
+      },
+      "no_read_supervisor_state": {
+        "ok": true,
+        "why": "PermissionError"
+      },
+      "no_see_supervisor_processes": {
+        "ok": true,
+        "why": "PermissionError"
+      },
+      "no_write_etc": {
+        "ok": true,
+        "why": "OSError"
+      },
+      "no_write_outside_workdir": {
+        "ok": true,
+        "why": "OSError"
+      },
+      "not_root": {
+        "ok": true,
+        "why": "uid=996"
+      },
+      "runs_as_lab_run": {
+        "ok": true,
+        "why": "lab-run"
+      }
+    },
+    "ok": true
+  },
+  "supervisor": "labbridge-0.1.0"
+}
