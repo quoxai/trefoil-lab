@@ -1,0 +1,50 @@
+{
+  "approval": {
+    "commit": "16bf071d0afd18aac95cd210caaf0690d706902d",
+    "research_branches": [
+      "refs/heads/research/bootstrap"
+    ],
+    "signer_fingerprint": "SHA256:QuvciPjdec8f6Hun53ThY9pWpnEUlnZTWzyJ1nHAlfc",
+    "tag": "approved/T000-16bf071d0afd",
+    "tag_object": "6d65617382e59bca9b89493b4efe5cef96ee971f",
+    "tests_change_approved": false,
+    "verified": true
+  },
+  "artifacts": [],
+  "attempt": 1,
+  "baseline_evaluator_tree": {
+    "lab/run.py": "64161b101401a18213fff2ea7fe0175efc89d8e2"
+  },
+  "baseline_ref": "main",
+  "baseline_tests_tree": "41b1a122869d17e40cae9683bdf38158f8dd5756",
+  "detail": null,
+  "environment": {
+    "platform": "Linux",
+    "python": "3.12.3"
+  },
+  "evaluator_tree": {
+    "lab/run.py": "64161b101401a18213fff2ea7fe0175efc89d8e2"
+  },
+  "exit_code": 0,
+  "experiment": "T000",
+  "failures": [],
+  "finished_at": "2026-10-16T21:51:07+00:00",
+  "measurements": {
+    "cycles": 3,
+    "final_value": 3
+  },
+  "run_id": "T000-16bf071d0afd-1",
+  "sandbox_selfcheck": {
+    "at": "2026-10-16T21:51:06+00:00",
+    "ok": true
+  },
+  "schema": "trefoil-lab-report/v0.1",
+  "source_commit": "16bf071d0afd18aac95cd210caaf0690d706902d",
+  "started_at": "2026-10-16T21:51:06+00:00",
+  "status": "passed",
+  "supervisor": "labbridge-0.1.0",
+  "tests_commit": "0b1599c234a76cf60a637f0fa8bdc4468f4d4381",
+  "tests_exit_code": 0,
+  "tests_or_evaluator_changed": [],
+  "tests_tree": "41b1a122869d17e40cae9683bdf38158f8dd5756"
+}

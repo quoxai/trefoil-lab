@@ -1,0 +1,12 @@
+{
+  "artifacts": {
+    "report.json": "4ba3801054cd3e0b3507ebaa08e097fd16484d773bcd05303cfd62844cc8fa96",
+    "run.log": "ca06236b07ba6ebddbfe3cef098970f6b65589f3e68531529c5dc1207705d0a3",
+    "sandbox.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests.log": "f45bb97f2a135e0277f48b32aedea66b026f99ae6cc96bff66d6338586c1e4c0"
+  },
+  "run_id": "T000-16bf071d0afd-1",
+  "schema": "trefoil-lab-report/v0.1",
+  "supervisor": "labbridge-0.1.0",
+  "written_at": "2026-10-16T21:51:07+00:00"
+}

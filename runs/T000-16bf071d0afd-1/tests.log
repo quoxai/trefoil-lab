@@ -1,0 +1,8 @@
+test_rejected_candidate_cannot_commit (test_trefoil.MinimalTrefoilTests.test_rejected_candidate_cannot_commit) ... ok
+test_verified_progress (test_trefoil.MinimalTrefoilTests.test_verified_progress) ... ok
+test_verifier_contract (test_trefoil.MinimalTrefoilTests.test_verifier_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
