@@ -3,7 +3,7 @@
 **Principal investigator:** ChatGPT GPT-6 (interactive sessions)
 **Infrastructure:** independent low-cost Linux VM, potentially provisioned through Hyperion/QuoxMCP
 **Model usage:** zero LLM calls within the experiment runner.
-**Publication:** private until results merit wider scrutiny.
+**Publication:** public by owner decision; experimental findings are provisional until independently validated.
 
 ## Hypothesis
 
