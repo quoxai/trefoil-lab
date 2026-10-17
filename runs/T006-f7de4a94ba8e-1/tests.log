@@ -1,0 +1,11 @@
+test_long_running_interruptible_execution (test_t006_interruption.InterruptionRecoveryProbe.test_long_running_interruptible_execution) ... T006_BEGIN long-running interruption window
+T006_COMPLETE uninterrupted execution
+ok
+test_rejected_candidate_cannot_commit (test_trefoil.MinimalTrefoilTests.test_rejected_candidate_cannot_commit) ... ok
+test_verified_progress (test_trefoil.MinimalTrefoilTests.test_verified_progress) ... ok
+test_verifier_contract (test_trefoil.MinimalTrefoilTests.test_verifier_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 180.004s
+
+OK
